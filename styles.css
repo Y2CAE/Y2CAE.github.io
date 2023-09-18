@@ -18,7 +18,14 @@ body {
 }
 
 img {
-  width: 50%; /* Increase width to make the image larger */
+  width: 25%; /* Default size */
   height: auto; /* Maintain aspect ratio */
   max-width: 100%; /* Ensure image doesn't exceed its original size */
+}
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+  img {
+    width: 50%; /* Adjust size for mobile devices */
+  }
 }

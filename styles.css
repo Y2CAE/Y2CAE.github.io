@@ -22,10 +22,3 @@ img {
   height: auto; /* Maintain aspect ratio */
   max-width: 100%; /* Ensure image doesn't exceed its original size */
 }
-
-/* Media query for mobile devices */
-@media (max-width: 1000px) {
-  img {
-    width: 100%; /* Adjust size for mobile devices */
-  }
-}
